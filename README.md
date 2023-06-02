@@ -36,7 +36,7 @@ del cuidado del perro.
 |HU008|Yo como dueño de un perro, quiero que la pechera inteligente sea capaz de encender un led o una luz brillante una vez que se encuentre en la oscuridad. Esto sera util para localizar de una manera más rapida y visual a mi perro, en caso de que se llegue a perder y sea necesario buscarlo por la noche.|Puede hacerse|1|El dueño del perro le colocará la pechera inteligente al perro en cuestión, para posteriormente emitir una señal para que el led se encienda o se apague, por medio de una opción incluida en la aplicación móvil desarrollada. O en su defecto esperar a que la luz se encienda automaticamente en la oscuridad, debido al bajo nivel de luz detectado.|Kevin Leonel Valdez Sánchez|
 ## Prototipo en dibujo
 ## Prototipo protoboard
-![Protoboard][Protoboard-url]
+<img src="https://github.com/leoKV/PecheraInteligente/blob/main/protoboard.jpg?raw=true" width="80%" height="400px">
 ## Prototipo PCB
+<img src="https://github.com/leoKV/PecheraInteligente/blob/main/PCB.jpg?raw=true" width="80%" height="400px">
 ## Prototipo 3D
-[Protoboard-url]:
