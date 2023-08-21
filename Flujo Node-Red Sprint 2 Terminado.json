@@ -1,0 +1,665 @@
+[
+    {
+        "id": "dc9f060632bd3ab4",
+        "type": "tab",
+        "label": "Pechera Inteligente",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "a427f54be8cd21e3",
+        "type": "mqtt in",
+        "z": "dc9f060632bd3ab4",
+        "name": "",
+        "topic": "gas",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "e323b67f42bf2995",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 170,
+        "y": 240,
+        "wires": [
+            [
+                "57220e051d3c03e9",
+                "ed3d1fe141956bd0",
+                "d71f6ba404df3cd7",
+                "050725e7da7c1fe0"
+            ]
+        ]
+    },
+    {
+        "id": "57220e051d3c03e9",
+        "type": "debug",
+        "z": "dc9f060632bd3ab4",
+        "name": "GAS",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 350,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "ed3d1fe141956bd0",
+        "type": "function",
+        "z": "dc9f060632bd3ab4",
+        "name": "INSERTAR",
+        "func": "var mqttMessage = msg.payload;\nmsg.topic = \"INSERT INTO sensor_data(sensor,user,value)VALUES(2,1,'\" + mqttMessage+ \"');\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 280,
+        "wires": [
+            [
+                "1a486faeea30d7a8"
+            ]
+        ]
+    },
+    {
+        "id": "c728f310c0818781",
+        "type": "mqtt in",
+        "z": "dc9f060632bd3ab4",
+        "name": "",
+        "topic": "lluvia",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "94bad1ed84e188ac",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 170,
+        "y": 520,
+        "wires": [
+            [
+                "58d354760757e745",
+                "0b0c4e596421cc89",
+                "e92d45828fd021d1",
+                "19dde4bc480ff6df"
+            ]
+        ]
+    },
+    {
+        "id": "58d354760757e745",
+        "type": "debug",
+        "z": "dc9f060632bd3ab4",
+        "name": "LLUVIA",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 360,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "0b0c4e596421cc89",
+        "type": "function",
+        "z": "dc9f060632bd3ab4",
+        "name": "INSERTAR",
+        "func": "var mqttMessage = msg.payload;\nmsg.topic = \"INSERT INTO sensor_data(sensor,user,value)VALUES(3,1,'\" + mqttMessage+ \"');\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 560,
+        "wires": [
+            [
+                "4c0d0bcd47a91add"
+            ]
+        ]
+    },
+    {
+        "id": "c9144dabb5253566",
+        "type": "mqtt in",
+        "z": "dc9f060632bd3ab4",
+        "name": "",
+        "topic": "temp",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "94bad1ed84e188ac",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 170,
+        "y": 840,
+        "wires": [
+            [
+                "bcdd066703eff37a",
+                "e50a6a11593c0113",
+                "9e83b3886f843495",
+                "2d830369bff3e7a1"
+            ]
+        ]
+    },
+    {
+        "id": "bcdd066703eff37a",
+        "type": "debug",
+        "z": "dc9f060632bd3ab4",
+        "name": "TEMPERATURA",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 390,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "e50a6a11593c0113",
+        "type": "function",
+        "z": "dc9f060632bd3ab4",
+        "name": "INSERTAR",
+        "func": "var mqttMessage = msg.payload;\nmsg.topic = \"INSERT INTO sensor_data(sensor,user,value)VALUES(4,1,'\" + mqttMessage+ \"');\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 880,
+        "wires": [
+            [
+                "0c7a19c298866fbd"
+            ]
+        ]
+    },
+    {
+        "id": "ae82860b580e2d78",
+        "type": "mqtt in",
+        "z": "dc9f060632bd3ab4",
+        "name": "",
+        "topic": "equipo1",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "94bad1ed84e188ac",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 170,
+        "y": 1120,
+        "wires": [
+            [
+                "d8147efffc7e9317",
+                "c4dab454353f02a4",
+                "a9193e8a1bc8281f",
+                "1a1970bd563a1e5a"
+            ]
+        ]
+    },
+    {
+        "id": "d8147efffc7e9317",
+        "type": "debug",
+        "z": "dc9f060632bd3ab4",
+        "name": "LUZ",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 350,
+        "y": 1060,
+        "wires": []
+    },
+    {
+        "id": "c4dab454353f02a4",
+        "type": "function",
+        "z": "dc9f060632bd3ab4",
+        "name": "INSERTAR",
+        "func": "var mqttMessage = msg.payload;\nmsg.topic = \"INSERT INTO sensor_data(sensor,user,value)VALUES(5,1,'\" + mqttMessage+ \"');\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 1140,
+        "wires": [
+            [
+                "46cf378733bc11d9"
+            ]
+        ]
+    },
+    {
+        "id": "050725e7da7c1fe0",
+        "type": "function",
+        "z": "dc9f060632bd3ab4",
+        "name": "MENSAJES",
+        "func": "var valor = msg.payload;\nif (valor > 4000) {\n    var mensaje = \"¡¡ALERTA!!, El nivel de gas a aumentado a : \" + valor + \" .\";\n    msg.payload = mensaje;\n    return msg;\n} else {\n    msg.payload = \"\";\n    return msg;\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 340,
+        "wires": [
+            [
+                "63f882e2f738c799"
+            ]
+        ]
+    },
+    {
+        "id": "19dde4bc480ff6df",
+        "type": "function",
+        "z": "dc9f060632bd3ab4",
+        "name": "MENSAJES",
+        "func": "var valor = msg.payload;\nif (valor >= 50) {\n    var mensaje = \"¡¡ALERTA!!, El nivel de lluvia a aumentado a : \" + valor + \" .\";\n    msg.payload = mensaje;\n    return msg;\n} else {\n    msg.payload = \"\";\n    return msg;\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 620,
+        "wires": [
+            [
+                "3129b2468f2c787b"
+            ]
+        ]
+    },
+    {
+        "id": "2d830369bff3e7a1",
+        "type": "function",
+        "z": "dc9f060632bd3ab4",
+        "name": "MENSAJES",
+        "func": "var valor = msg.payload;\nif (valor >= 36) {\n    var mensaje = \"¡¡TEMPERATURA ALTA!!, La temperatura de tu perro a aumentado a : \" + valor + \" grados.\";\n    msg.payload = mensaje;\n    return msg;\n} else {\n    msg.payload = \"\";\n    return msg;\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 940,
+        "wires": [
+            [
+                "b46645ec0c2704a6"
+            ]
+        ]
+    },
+    {
+        "id": "1a1970bd563a1e5a",
+        "type": "function",
+        "z": "dc9f060632bd3ab4",
+        "name": "MENSAJES",
+        "func": "var valor = msg.payload;\nif (valor < 50) {\n    var mensaje = \"¡¡Tu perro se encuentra en la oscuridad!!, se ha encendido un led para que puedas encontrarlo.\";\n    msg.payload = mensaje;\n    return msg;\n} else {\n    msg.payload = \"\";\n    return msg;\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 1200,
+        "wires": [
+            [
+                "aa18a7b0dba9b37f"
+            ]
+        ]
+    },
+    {
+        "id": "1a486faeea30d7a8",
+        "type": "mysql",
+        "z": "dc9f060632bd3ab4",
+        "mydb": "3095f65d0885992e",
+        "name": "Database Sensors",
+        "x": 570,
+        "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "63f882e2f738c799",
+        "type": "ui_text",
+        "z": "dc9f060632bd3ab4",
+        "group": "d29638e3e3bf3eca",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "x": 530,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "3129b2468f2c787b",
+        "type": "ui_text",
+        "z": "dc9f060632bd3ab4",
+        "group": "d767ce9767913d11",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "x": 530,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "b46645ec0c2704a6",
+        "type": "ui_text",
+        "z": "dc9f060632bd3ab4",
+        "group": "d29638e3e3bf3eca",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "x": 530,
+        "y": 940,
+        "wires": []
+    },
+    {
+        "id": "aa18a7b0dba9b37f",
+        "type": "ui_text",
+        "z": "dc9f060632bd3ab4",
+        "group": "d767ce9767913d11",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "x": 530,
+        "y": 1200,
+        "wires": []
+    },
+    {
+        "id": "d71f6ba404df3cd7",
+        "type": "ui_gauge",
+        "z": "dc9f060632bd3ab4",
+        "name": "",
+        "group": "d29638e3e3bf3eca",
+        "order": 1,
+        "width": 6,
+        "height": 5,
+        "gtype": "gage",
+        "title": "Nivel de gas en el ambiente",
+        "label": " cm 2",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "5000",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 420,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "e92d45828fd021d1",
+        "type": "ui_gauge",
+        "z": "dc9f060632bd3ab4",
+        "name": "",
+        "group": "d767ce9767913d11",
+        "order": 1,
+        "width": 6,
+        "height": 5,
+        "gtype": "wave",
+        "title": "Nivel de lluvia en el ambiente",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 420,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "9e83b3886f843495",
+        "type": "ui_gauge",
+        "z": "dc9f060632bd3ab4",
+        "name": "",
+        "group": "d29638e3e3bf3eca",
+        "order": 4,
+        "width": 6,
+        "height": 5,
+        "gtype": "donut",
+        "title": "Temperatura corporal",
+        "label": "Grados",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 400,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "a9193e8a1bc8281f",
+        "type": "ui_gauge",
+        "z": "dc9f060632bd3ab4",
+        "name": "",
+        "group": "d767ce9767913d11",
+        "order": 3,
+        "width": 6,
+        "height": 5,
+        "gtype": "compass",
+        "title": "Porcentaje de luz",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 390,
+        "y": 1100,
+        "wires": []
+    },
+    {
+        "id": "4c0d0bcd47a91add",
+        "type": "mysql",
+        "z": "dc9f060632bd3ab4",
+        "mydb": "3095f65d0885992e",
+        "name": "Database Sensors",
+        "x": 570,
+        "y": 560,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0c7a19c298866fbd",
+        "type": "mysql",
+        "z": "dc9f060632bd3ab4",
+        "mydb": "3095f65d0885992e",
+        "name": "Database Sensors",
+        "x": 570,
+        "y": 880,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "46cf378733bc11d9",
+        "type": "mysql",
+        "z": "dc9f060632bd3ab4",
+        "mydb": "3095f65d0885992e",
+        "name": "Database Sensors",
+        "x": 570,
+        "y": 1140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e323b67f42bf2995",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "192.168.187.212",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "94bad1ed84e188ac",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "192.168.187.212",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "3095f65d0885992e",
+        "type": "MySQLdatabase",
+        "name": "",
+        "host": "127.0.0.1",
+        "port": "3306",
+        "db": "ddi01",
+        "tz": "",
+        "charset": "UTF8"
+    },
+    {
+        "id": "d29638e3e3bf3eca",
+        "type": "ui_group",
+        "name": "Columna 1",
+        "tab": "fab98542050f53ac",
+        "order": 1,
+        "disp": false,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "d767ce9767913d11",
+        "type": "ui_group",
+        "name": "Columna 2",
+        "tab": "fab98542050f53ac",
+        "order": 2,
+        "disp": false,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "fab98542050f53ac",
+        "type": "ui_tab",
+        "name": "PECHERA INTELIGENTE",
+        "icon": "dashboard",
+        "order": 5,
+        "disabled": false,
+        "hidden": false
+    }
+]
