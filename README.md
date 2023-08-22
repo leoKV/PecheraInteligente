@@ -140,6 +140,29 @@ La librería ds18x20 en MicroPython es una implementación para trabajar con sen
 |DS18X20_TEMP_INVALID|Constante que indica una temperatura inválida.|
 
 
+***math***
+
+La librería math es una librería estándar en Python que proporciona funciones matemáticas para realizar operaciones y cálculos numéricos más avanzados. A contnuación se presenta una tabla con información detallada y relevante sobre la librería math:
+
+|Elemento|Descripción|
+|--------|-----------|
+|math.ceil(x)|	Devuelve el entero más pequeño mayor o igual a x.|
+|math.floor(x)|Devuelve el entero más grande menor o igual a x.|
+|math.trunc(x)|Devuelve la parte entera de x.|
+|math.sqrt(x)|Calcula y devuelve la raíz cuadrada de x.|
+|math.pow(x, y)|Calcula y devuelve x elevado a la potencia y.|
+|math.exp(x)|Calcula y devuelve el valor exponencial de x (e^x).|
+|math.log(x, [base])|Calcula y devuelve el logaritmo natural de x. Si se proporciona base, calcula el logaritmo en la base especificada.|
+|math.log10(x)|Calcula y devuelve el logaritmo en base 10 de x.|
+|math.sin(x)|Calcula y devuelve el seno de x en radianes.|
+|math.cos(x)|Calcula y devuelve el coseno de x en radianes.|
+|math.tan(x)|Calcula y devuelve la tangente de x en radianes.|
+|math.radians(x)|Convierte el ángulo x de grados a radianes.|
+|math.degrees(x)|Convierte el ángulo x de radianes a grados.|
+|math.pi|Constante que representa el valor de π (pi).|
+|math.e|Constante que representa el valor de e (base del logaritmo natural).|
+
+
 
 ## Historias de usuario
 | Id | Historia de usuario | Prioridad | Estimación | Como probarlo | Responsable | No.Sprint |
