@@ -45,6 +45,28 @@ del cuidado del perro.
 |  5 | Rasberry Pi OS | 4 | Software libre|
 |  6 | Thonny | 5.24 | Software libre |
 |  7 | Ultimate Maker Cure | N/A | Software libre |
+## Librerías requeridas
+***time***
+
+La librería time en Python es una librería estándar que proporciona funciones relacionadas con el tiempo y la medición del mismo. Se utiliza para manipular y trabajar con fechas, horas e intervalos de tiempo en programas Python. A continuación se muestra una tabla con información detallada y relevante sobre la librería time:
+
+|Elemento|Descripción|
+|--------|-----------|
+|time()  |Devuelve el tiempo actual en segundos desde el "epoch" (1 de enero de 1970). Es útil para medir intervalos de tiempo.|
+|sleep(segundos)|Pausa la ejecución del programa durante el número de segundos especificado. Es útil para introducir retrasos en el código.|
+|ctime([segundos])|Convierte un tiempo en segundos desde el "epoch" a una cadena legible de fecha y hora (por defecto, el tiempo actual).|
+|gmtime([segundos])|Convierte un tiempo en segundos desde el "epoch" a una estructura de tiempo en formato UTC (tiempo universal coordinado).|
+|localtime([segundos])|Convierte un tiempo en segundos desde el "epoch" a una estructura de tiempo en el huso horario local.|
+|strftime(formato, estructura_de_tiempo)|Convierte una estructura de tiempo en una cadena de texto con el formato especificado. Permite personalizar la representación de la fecha y hora.|
+|strptime(cadena, formato)|Convierte una cadena de texto en una estructura de tiempo, según el formato especificado. Útil para analizar cadenas de fecha y hora en estructuras de tiempo.|
+|mktime(estructura_de_tiempo)|Convierte una estructura de tiempo en segundos desde el "epoch". Es útil para convertir una estructura de tiempo modificada de vuelta a segundos.|
+|time_ns()|Similar a time(), pero devuelve el tiempo actual en nanosegundos desde el "epoch".|
+|perf_counter()|Devuelve un contador de alta resolución para medir intervalos de tiempo. Es útil para mediciones de rendimiento.|
+|perf_counter()|Devuelve un contador de alta resolución para medir intervalos de tiempo. Es útil para mediciones de rendimiento.|
+|monotonic()|Devuelve un contador de tiempo que solo avanza hacia adelante, incluso si el sistema ajusta el tiempo. Útil para medir intervalos sin preocuparse por cambios de tiempo del sistema.|
+|process_time()|Devuelve el tiempo de CPU consumido por el proceso actual en segundos. Útil para medir el tiempo de CPU utilizado por una parte específica del código.|
+
+
 ## Historias de usuario
 | Id | Historia de usuario | Prioridad | Estimación | Como probarlo | Responsable | No.Sprint |
 |----|---------------------|-----------|------------|---------------|-------------|-------------|
