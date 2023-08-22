@@ -51,12 +51,36 @@ del cuidado del perro.
 |HU007|Yo Médico Veterinario Zootecnista Guadalupe Yerena Cuarenta, como dueña y experta en el cuidado de un perro, quiero que la pechera inteligente sea capaz de mostrar la geolocalización del perro, para poder localizarlo, si este se llegará a extraviar.|Debe hacerse|1|El dueño del perro le colocará la pechera inteligente al perro en cuestión, para posteriormente visualizar la ubicación del perro en una pantalla inteligente LVGL.|Kevin,Manuel,Lizbeth,Oscar|2|
 |HU008|Yo Médico Veterinario Zootecnista Guadalupe Yerena Cuarenta, como dueña y experta en el cuidado de un perro, quiero que la pechera inteligente sea capaz de recargarse por medio de un dispositivo Power bank, con la finalidad de hacer más accesible la recarga de la pechera.|Debe hacerse|1|El dueño del perro recarga el Power Bank con un cargador de entrada micro-usb.|Kevin,Manuel,Lizbeth,Oscar|2|
 ## Prototipo en dibujo
+### Sprint 1
 <img src="https://github.com/leoKV/PecheraInteligente/blob/main/Prototipo%20en%20dibujo.jpg?raw=true" width="100%" height="400px">
+
+### Sprint 2
+<img src="https://github.com/leoKV/PecheraInteligente/blob/main/Prototipo%20en%20dibujo-Sprint%202.JPG" width="100%" height="400px">
+
+
 ## Prototipo protoboard
+### Sprint 1
 <img src="https://github.com/leoKV/PecheraInteligente/blob/main/protoboard.jpg?raw=true" width="100%" height="400px">
+
+### Sprint 2
+
+
 ## Prototipo PCB
+### Sprint 1
 <img src="https://github.com/leoKV/PecheraInteligente/blob/main/PCB.jpg?raw=true" width="100%" height="400px">
+
+### Sprint 2
+
+
 ## Prototipo 3D
+### Sprint 1
 <img src="https://github.com/leoKV/PecheraInteligente/blob/main/Prototipo%203D.jpg?raw=true" width="100%" height="400px">
 
+### Sprint 2
+
+## Enlaces del prototipo en TinkerCad
+### Sprint 1
 Enlace de TinkerCad:https://www.tinkercad.com/things/2wv30AB57Ti-copy-of-prototipo-carcasa/edit?sharecode=0HFHkknxU48Cj-CkdLezdMP874HZKd_PFWTjwt-mLDA
+
+### Sprint 2
+
