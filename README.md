@@ -55,6 +55,17 @@ del cuidado del perro.
 |HU007|Yo Médico Veterinario Zootecnista Guadalupe Yerena Cuarenta, como dueña y experta en el cuidado de un perro, quiero que la pechera inteligente sea capaz de mostrar la geolocalización del perro, para poder localizarlo, si este se llegará a extraviar.|Debe hacerse|1|El dueño del perro le colocará la pechera inteligente al perro en cuestión, para posteriormente visualizar la ubicación del perro en una pantalla inteligente LVGL.|Kevin,Manuel,Lizbeth,Oscar|2|
 |HU008|Yo Médico Veterinario Zootecnista Guadalupe Yerena Cuarenta, como dueña y experta en el cuidado de un perro, quiero que la pechera inteligente sea capaz de recargarse por medio de un dispositivo Power bank, con la finalidad de hacer más accesible la recarga de la pechera.|Debe hacerse|1|El dueño del perro recarga el Power Bank con un cargador de entrada micro-usb.|Kevin,Manuel,Lizbeth,Oscar|2|
 
+## Fotos del producto
+<img src="https://github.com/leoKV/PecheraInteligente/blob/main/Pechera%20Inteligente-Foto-1.jpg" width="100%" height="400px">
+
+<img src="https://github.com/leoKV/PecheraInteligente/blob/main/Pechera%20Inteligente-Foto-2.jpg" width="100%" height="400px">
+
+<img src="https://github.com/leoKV/PecheraInteligente/blob/main/Pechera%20Inteligente-Foto-3.jpg" width="100%" height="400px">
+
+<img src="https://github.com/leoKV/PecheraInteligente/blob/main/Pechera%20Inteligente-Foto-4.jpg" width="100%" height="400px">
+
+<img src="https://github.com/leoKV/PecheraInteligente/blob/main/Pechera%20Inteligente-Foto-5.jpg" width="100%" height="400px">
+
 ## Video de demostración
 <img src="https://github.com/leoKV/PecheraInteligente/blob/main/Video%20youtube.JPG" width="100%" height="400px">
 
