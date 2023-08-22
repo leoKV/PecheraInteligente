@@ -66,6 +66,7 @@ La librería time en Python es una librería estándar que proporciona funciones
 |monotonic()|Devuelve un contador de tiempo que solo avanza hacia adelante, incluso si el sistema ajusta el tiempo. Útil para medir intervalos sin preocuparse por cambios de tiempo del sistema.|
 |process_time()|Devuelve el tiempo de CPU consumido por el proceso actual en segundos. Útil para medir el tiempo de CPU utilizado por una parte específica del código.|
 
+
 ***umqtt.simple***
 
 La librería umqtt.simple en Python es una implementación simple del protocolo MQTT (Message Queuing Telemetry Transport) para dispositivos con recursos limitados, como microcontroladores y sistemas embebidos. Esta librería permite a estos dispositivos conectarse a un broker MQTT y publicar/suscribir mensajes en un sistema de mensajería basado en el patrón publish-subscribe. A continuación se presenta una tabla con información detallada y relevante sobre la librería umqtt.simple:
