@@ -104,6 +104,24 @@ La librería machine es parte de MicroPython y proporciona funciones para intera
 |pwm.duty([duty])|Obtiene o establece el ciclo de trabajo de la señal PWM.|
 |pwm.freq([freq])|Obtiene o establece la frecuencia de la señal PWM.|
 
+***onewire***
+
+La librería onewire en MicroPython es una implementación del protocolo OneWire, que es un protocolo de comunicación de un solo cable utilizado para conectar dispositivos electrónicos, como sensores y memorias EEPROM, en sistemas embebidos y microcontroladores. A continuación, se proporciona una tabla con información detallada y relevante sobre la librería onewire:
+
+|Elemento|Descripción|
+|--------|-----------|
+|OneWire(pin)|Constructor de la clase OneWire. Crea una instancia de objeto para trabajar con dispositivos OneWire en un pin específico.|
+|ow.reset()|Realiza una secuencia de reset en el bus OneWire para detectar dispositivos.|
+|ow.readbyte()|	Lee y devuelve un byte del bus OneWire.|
+|ow.readbytes(num)|Lee y devuelve una secuencia de num bytes del bus OneWire.|
+|ow.writebyte(byte)|Escribe un byte en el bus OneWire.|
+|ow.writebytes(buf)|Escribe una secuencia de bytes desde el búfer buf en el bus OneWire.|
+|ow.select_rom(rom)|Selecciona un dispositivo específico en el bus OneWire utilizando su dirección ROM.|
+|ow.skip_rom()|Omite la selección de un dispositivo y permite la comunicación directa con cualquier dispositivo en el bus OneWire.|
+|ow.search(search_direction=SEARCH_ROM)|Realiza una búsqueda de dispositivos en el bus OneWire y devuelve las direcciones ROM de los dispositivos encontrados. search_direction puede ser SEARCH_ROM para una búsqueda completa o SEARCH_ALARM para buscar dispositivos que responden a una alarma específica.|
+|ow.crc8(data)|Calcula y devuelve el valor de verificación de redundancia cíclica (CRC) de 8 bits para una secuencia de bytes data.|
+
+
 ## Historias de usuario
 | Id | Historia de usuario | Prioridad | Estimación | Como probarlo | Responsable | No.Sprint |
 |----|---------------------|-----------|------------|---------------|-------------|-------------|
