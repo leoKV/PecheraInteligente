@@ -52,6 +52,11 @@ del cuidado del perro.
 |HU006|Yo Médico Veterinario Zootecnista Guadalupe Yerena Cuarenta, como dueña y experta en el cuidado de un perro, quiero que la pechera inteligente sea capaz de encender una pequeña luz, con la cual se pueda localizar más facilmente al perro, cuando este se encuentra en la oscuridad.|Debe hacerse|1|El dueño del perro le colocará la pechera inteligente al perro en cuestión, para posteriormente visualizar la luz de un led, una vez que se detecte que el perro esta en un lugar oscuro.|Kevin,Manuel,Lizbeth,Oscar|2|
 |HU007|Yo Médico Veterinario Zootecnista Guadalupe Yerena Cuarenta, como dueña y experta en el cuidado de un perro, quiero que la pechera inteligente sea capaz de mostrar la geolocalización del perro, para poder localizarlo, si este se llegará a extraviar.|Debe hacerse|1|El dueño del perro le colocará la pechera inteligente al perro en cuestión, para posteriormente visualizar la ubicación del perro en una pantalla inteligente LVGL.|Kevin,Manuel,Lizbeth,Oscar|2|
 |HU008|Yo Médico Veterinario Zootecnista Guadalupe Yerena Cuarenta, como dueña y experta en el cuidado de un perro, quiero que la pechera inteligente sea capaz de recargarse por medio de un dispositivo Power bank, con la finalidad de hacer más accesible la recarga de la pechera.|Debe hacerse|1|El dueño del perro recarga el Power Bank con un cargador de entrada micro-usb.|Kevin,Manuel,Lizbeth,Oscar|2|
+
+## Video de demostración
+<img src="https://github.com/leoKV/PecheraInteligente/blob/main/Video%20youtube.JPG" width="100%" height="400px">
+
+Enlace del video(DEMO):https://www.youtube.com/watch?v=c7WJ968Q1z8
 ## Prototipo en dibujo
 ### Sprint 1
 <img src="https://github.com/leoKV/PecheraInteligente/blob/main/Prototipo%20en%20dibujo.jpg?raw=true" width="100%" height="400px">
