@@ -29,7 +29,7 @@ del cuidado del perro.
 |13|Power bank|<html><ol><li>Voltaje: 5 volts</li><li>Batería portátil</li></ol></html>|![image](https://github.com/ManuelAvil/proyectoIOT/assets/88950498/974bc306-2e97-4225-b9ba-bbf0d4c94f11)|$80.00|1 pieza|
 |14|Pechera|<html><ol><li> El arnés para perros táctico mediano está hecho de nailon duradero, adopta una estructura superior e inferior de dos capas</li><li>Material de malla con excelente transpirabilidad, ajuste cómodo y no daña al perro</li><li>Clip de correa trasera para perros bien entrenados que caminan normalmente</li></ol></html>|![image](https://github.com/ManuelAvil/proyectoIOT/assets/88950498/14e95899-2a20-4618-92c8-907938751781)|$300.00|1 pieza|
 |15|Filamento|<html><ol><li>250 gramos</li><li>Gran flexibilidad</li><li>Libre de burbujas de aire</li><li>Resistente</li></ol></html>|![image](https://github.com/ManuelAvil/proyectoIOT/assets/88950498/db41bb78-72af-4df4-9d51-aef677abbce9)|$180.00|1 pieza|
-|16|Cautín tipo lápiz | SD1-40|<html><ol><li>Base Cromada</li><li>Punta Cónica Intercambiable</li><li>Mango de baquelita</li><li>Modelo de punta: SD6</li><li>Potencia de 40 W</li><li><li>Potencia de 40 W</li></li></ol></html>|![image](https://github.com/leoKV/PecheraInteligente/assets/88950498/14117d92-cc58-44a7-93b3-37855309d6b6)|$100.00|1 pieza|
+|16|Cautín tipo lápiz SD1-40|<html><ol><li>Base Cromada</li><li>Punta Cónica Intercambiable</li><li>Mango de baquelita</li><li>Modelo de punta: SD6</li><li>Potencia de 40 W</li><li><li>Potencia de 40 W</li></li></ol></html>|![image](https://github.com/leoKV/PecheraInteligente/assets/88950498/14117d92-cc58-44a7-93b3-37855309d6b6)|$100.00|1 pieza|
 ## Software a utilizar	
 | Id | Software | Version | Tipo |
 |----|----------|---------|------|
@@ -39,7 +39,7 @@ del cuidado del perro.
 |  4 | Wokwi | N/A   | Software libre|
 |  5 | Rasberry Pi OS | 4 | Software libre|
 |  6 | Thonny | 5.24 | Software libre |
-|  7| Ultimate Maker Cure | N/A | Software libre |
+|  7 | Ultimate Maker Cure | N/A | Software libre |
 ## Historias de usuario
 | Id | Historia de usuario | Prioridad | Estimación | Como probarlo | Responsable | No.Sprint |
 |----|---------------------|-----------|------------|---------------|-------------|-------------|
