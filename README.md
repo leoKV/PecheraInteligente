@@ -31,6 +31,7 @@ del cuidado del perro.
 |15|Filamento|<html><ol><li>250 gramos</li><li>Gran flexibilidad</li><li>Libre de burbujas de aire</li><li>Resistente</li></ol></html>|![image](https://github.com/ManuelAvil/proyectoIOT/assets/88950498/db41bb78-72af-4df4-9d51-aef677abbce9)|$180.00|1 pieza|
 |16|Cautín tipo lápiz SD1-40|<html><ol><li>Base Cromada</li><li>Punta Cónica Intercambiable</li><li>Mango de baquelita</li><li>Modelo de punta: SD6</li><li>Potencia de 40 W</li><li><li>Potencia de 40 W</li></li></ol></html>|![image](https://github.com/leoKV/PecheraInteligente/assets/88950498/14117d92-cc58-44a7-93b3-37855309d6b6)|$100.00|1 pieza|
 |17|Tubo de Soldadura|<html><ol><li>Tubo de Soldadura SOL60-020</li><li>17 gramos</li></ol></html>|![image](https://github.com/leoKV/PecheraInteligente/assets/88950498/d19fc0d2-0a0f-4adc-a75e-697fcf3fe3db)|$60.00|2 piezas|
+|18|Pasta para soldar|<html><ol><li>Bote 75 g pasta para soldar</li><li>Bote azul</li></ol></html>|![image](https://github.com/leoKV/PecheraInteligente/assets/88950498/b41d51af-67c8-4c05-807c-e13a37d0587c)|$50.00|1 pieza|
 ## Software a utilizar	
 | Id | Software | Version | Tipo |
 |----|----------|---------|------|
