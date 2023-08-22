@@ -70,13 +70,14 @@ Enlace del video(DEMO):https://www.youtube.com/watch?v=c7WJ968Q1z8
 <img src="https://github.com/leoKV/PecheraInteligente/blob/main/protoboard.jpg?raw=true" width="100%" height="400px">
 
 ### Sprint 2
-
+<img src="https://github.com/leoKV/PecheraInteligente/blob/main/Prototipo%20Protoboard-Sprint%202.jpg" width="100%" height="400px">
 
 ## Prototipo PCB
 ### Sprint 1
 <img src="https://github.com/leoKV/PecheraInteligente/blob/main/PCB.jpg?raw=true" width="100%" height="400px">
 
 ### Sprint 2
+<img src="https://github.com/leoKV/PecheraInteligente/blob/main/Prototipo%20PCB-Sprint%202.jpg" width="100%" height="400px">
 
 
 ## Prototipo 3D
@@ -96,4 +97,7 @@ Enlace de TinkerCad:https://www.tinkercad.com/things/2wv30AB57Ti-copy-of-prototi
 Enlace de TinkerCad(BASE):https://www.tinkercad.com/things/l9MZQMQiQT6-copy-of-base/edit?sharecode=t7SdFJ4WF3k06CKGewgwbQJOGNghmqr3R_DEK6svdNA
 
 Enlace de TinkerCad(TAPA):https://www.tinkercad.com/things/gDlIMlRYyqP-copy-of-tapa/edit?sharecode=BPNiIZiiKfqQirAY41Lx5xpdQOJLtFFgFovsp7wJ7go
+
+## Carta de liberación
+<img src="https://github.com/leoKV/PecheraInteligente/blob/main/Liberaci%C3%B3n.jpg" width="70%" height="750px">
 
