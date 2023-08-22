@@ -122,6 +122,25 @@ La librería onewire en MicroPython es una implementación del protocolo OneWire
 |ow.crc8(data)|Calcula y devuelve el valor de verificación de redundancia cíclica (CRC) de 8 bits para una secuencia de bytes data.|
 
 
+***ds18x20***
+
+La librería ds18x20 en MicroPython es una implementación para trabajar con sensores de temperatura de la serie DS18B20 utilizando el protocolo OneWire. El sensor DS18B20 es un sensor digital de alta precisión que permite medir la temperatura con una resolución de hasta 12 bits. A continuación se tiene una tabla con información detallada y relevante sobre la librería ds18x20:
+
+|Elemento|Descripción|
+|--------|-----------|
+|DS18X20(ow, rom)|Constructor de la clase DS18X20. Crea una instancia de objeto para interactuar con un sensor DS18B20 específico en un bus OneWire (ow) utilizando su dirección ROM (rom).|
+|ds.read_temp_async()|Inicia una conversión de temperatura asíncrona en el sensor.|
+|ds.read_temp()|Lee y devuelve la temperatura en grados Celsius desde el sensor.|
+|ds.read_temp_async_wait()|Espera hasta que la conversión de temperatura asíncrona haya finalizado y luego lee y devuelve la temperatura.|
+|ds.convert_temp()|Realiza una conversión de temperatura sincrónica y devuelve la temperatura.|
+|ds.resolution([bits])|Obtiene o establece la resolución de bits para la conversión de temperatura.|
+|ds.alarm_temp([low=None], [high=None])|Configura las temperaturas de alarma baja (low) y alta (high).|
+|ds.depower()|Desactiva el suministro de energía al sensor DS18B20.|
+|DS18X20_ROM_UNKNOWN|Constante que indica una dirección ROM desconocida.|
+|DS18X20_TEMP_INVALID|Constante que indica una temperatura inválida.|
+
+
+
 ## Historias de usuario
 | Id | Historia de usuario | Prioridad | Estimación | Como probarlo | Responsable | No.Sprint |
 |----|---------------------|-----------|------------|---------------|-------------|-------------|
