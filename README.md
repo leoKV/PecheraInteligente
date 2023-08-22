@@ -85,6 +85,24 @@ La librería umqtt.simple en Python es una implementación simple del protocolo 
 |delay(ms)|	Introduce un retraso en milisegundos en el bucle de manejo de mensajes. Útil para evitar bloqueos prolongados.|
 
 
+***machine***
+
+La librería machine es parte de MicroPython y proporciona funciones para interactuar con componentes de hardware en microcontroladores y sistemas embebidos. Esta librería es esencial para controlar diversos aspectos del hardware, como pines GPIO, temporizadores, ADC (convertidores analógico-digitales) y más. A continuación, se encuentra una tabla con información detallada y relevante sobre la librería machine:
+
+|Elemento|Descripción|
+|--------|-----------|
+|Pin(pin, mode, [pull=None], [value=None])|Constructor de la clase Pin. Crea una instancia de objeto para controlar un pin GPIO. pin es el número del pin, mode define el modo del pin (Pin.IN para entrada o Pin.OUT para salida), pull establece la resistencia de pull (None, Pin.PULL_UP o Pin.PULL_DOWN), y value (opcional) establece el valor inicial del pin para modo de salida.|
+|pin.on() / pin.off()|Activa o desactiva un pin en modo de salida.|
+|pin.value([value])|	Obtiene o establece el valor de un pin en modo de salida.|
+|pin.toggle()|Invierte el estado actual de un pin en modo de salida.|
+|ADC(pin)|Constructor de la clase ADC. Crea una instancia de objeto para leer valores analógicos de un pin ADC.|
+|adc.read()|Lee y devuelve el valor analógico del pin ADC.|
+|Timer(timer_id)|Constructor de la clase Timer. Crea una instancia de objeto para trabajar con temporizadores.|
+|timer.init(period, callback)|Inicializa un temporizador con un período en microsegundos y una función de devolución de llamada (callback) a ejecutar cuando el temporizador expire.|
+|timer.deinit()|Detiene y deshabilita el temporizador.|
+|PWM(pin, [freq=500], [duty=0])|Constructor de la clase PWM. Crea una instancia de objeto para generar una señal PWM en un pin. freq es la frecuencia en hertz de la señal PWM, y duty es el ciclo de trabajo inicial en porcentaje.|
+|pwm.duty([duty])|Obtiene o establece el ciclo de trabajo de la señal PWM.|
+|pwm.freq([freq])|Obtiene o establece la frecuencia de la señal PWM.|
 
 ## Historias de usuario
 | Id | Historia de usuario | Prioridad | Estimación | Como probarlo | Responsable | No.Sprint |
