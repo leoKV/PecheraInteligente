@@ -33,6 +33,7 @@ del cuidado del perro.
 |17|Tubo de Soldadura|<html><ol><li>Tubo de Soldadura SOL60-020</li><li>17 gramos</li></ol></html>|![image](https://github.com/leoKV/PecheraInteligente/assets/88950498/d19fc0d2-0a0f-4adc-a75e-697fcf3fe3db)|$60.00|2 piezas|
 |18|Pasta para soldar|<html><ol><li>Bote 75 g pasta para soldar</li><li>Bote azul</li></ol></html>|![image](https://github.com/leoKV/PecheraInteligente/assets/88950498/b41d51af-67c8-4c05-807c-e13a37d0587c)|$50.00|1 pieza|
 |19|ESP32|<html><ol><li>ESP32 38 PINES</li><li>Tamaño de la memoria RAM instalada	520 KB</li><li>Capacidad de almacenamiento de la memoria	448 KB</li><li>Velocidad de CPU	240 MHz</li></ol></html>|![image](https://github.com/leoKV/PecheraInteligente/assets/88950498/1e512449-5fc2-468d-a49f-de0e517a7a2c)|$175.00|1 pieza|
+|20|Cable De Datos Tipo C|<html><ol><li>Conector: Tipo A a Tipo C</li><li>Material de recubrimiento: ABS</li></ol></html>|![image](https://github.com/leoKV/PecheraInteligente/assets/88950498/b50ae156-9c47-4ad3-a7a6-be2aceda8a35)|$25.00|1 pieza|
 ## Software a utilizar	
 | Id | Software | Version | Tipo |
 |----|----------|---------|------|
