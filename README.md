@@ -84,10 +84,16 @@ Enlace del video(DEMO):https://www.youtube.com/watch?v=c7WJ968Q1z8
 <img src="https://github.com/leoKV/PecheraInteligente/blob/main/Prototipo%203D.jpg?raw=true" width="100%" height="400px">
 
 ### Sprint 2
+<img src="https://github.com/leoKV/PecheraInteligente/blob/main/Prototipo%203D-1.jpg" width="100%" height="400px">
+
+<img src="https://github.com/leoKV/PecheraInteligente/blob/main/Prototipo%203D-2.jpg" width="100%" height="400px">
 
 ## Enlaces del prototipo en TinkerCad
 ### Sprint 1
 Enlace de TinkerCad:https://www.tinkercad.com/things/2wv30AB57Ti-copy-of-prototipo-carcasa/edit?sharecode=0HFHkknxU48Cj-CkdLezdMP874HZKd_PFWTjwt-mLDA
 
 ### Sprint 2
+Enlace de TinkerCad(BASE):https://www.tinkercad.com/things/l9MZQMQiQT6-copy-of-base/edit?sharecode=t7SdFJ4WF3k06CKGewgwbQJOGNghmqr3R_DEK6svdNA
+
+Enlace de TinkerCad(TAPA):https://www.tinkercad.com/things/gDlIMlRYyqP-copy-of-tapa/edit?sharecode=BPNiIZiiKfqQirAY41Lx5xpdQOJLtFFgFovsp7wJ7go
 
