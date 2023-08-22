@@ -66,6 +66,24 @@ La librería time en Python es una librería estándar que proporciona funciones
 |monotonic()|Devuelve un contador de tiempo que solo avanza hacia adelante, incluso si el sistema ajusta el tiempo. Útil para medir intervalos sin preocuparse por cambios de tiempo del sistema.|
 |process_time()|Devuelve el tiempo de CPU consumido por el proceso actual en segundos. Útil para medir el tiempo de CPU utilizado por una parte específica del código.|
 
+***umqtt.simple***
+
+La librería umqtt.simple en Python es una implementación simple del protocolo MQTT (Message Queuing Telemetry Transport) para dispositivos con recursos limitados, como microcontroladores y sistemas embebidos. Esta librería permite a estos dispositivos conectarse a un broker MQTT y publicar/suscribir mensajes en un sistema de mensajería basado en el patrón publish-subscribe. A continuación se presenta una tabla con información detallada y relevante sobre la librería umqtt.simple:
+
+|Elemento|Descripción|
+|--------|-----------|
+|MQTTClient(client_id, server, [port=0], [user=None], [password=None], [keepalive=0])  |Constructor de la clase MQTTClient. Crea una instancia de cliente MQTT. Parámetros: client_id es el identificador del cliente, server es la dirección del broker MQTT, port es el puerto del broker (por defecto es 0), user y password son las credenciales de autenticación, y keepalive es el tiempo en segundos entre ping al broker para mantener la conexión.|
+|connect()|Establece la conexión con el broker MQTT.|
+|disconnect()|Cierra la conexión con el broker MQTT.|
+|publish(topic, msg, [retain=False], [qos=0])|Publica un mensaje en el tema (topic) especificado. msg es el contenido del mensaje, retain determina si el mensaje debe ser retenido por el broker, y qos es el nivel de calidad de servicio (QoS) para la publicación.|
+|subscribe(topic, [qos=0])|Suscribe el cliente a un tema (topic) específico. qos es el nivel de calidad de servicio deseado para las suscripciones.|
+|unsubscribe(topic)|Cancela la suscripción del cliente a un tema (topic) específico.|
+|wait_msg()|Espera y maneja mensajes entrantes del broker MQTT.|
+|check_msg()|Verifica si hay mensajes entrantes y los maneja, pero no espera.|
+|set_callback(callback)|Establece una función de devolución de llamada (callback) para manejar mensajes entrantes.|
+|delay(ms)|	Introduce un retraso en milisegundos en el bucle de manejo de mensajes. Útil para evitar bloqueos prolongados.|
+
+
 
 ## Historias de usuario
 | Id | Historia de usuario | Prioridad | Estimación | Como probarlo | Responsable | No.Sprint |
